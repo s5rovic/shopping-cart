@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prodavnica</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Prodavnica</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Namirnice</h2>
+
+			<div class="single-item">
+				<img src="img/hleb.png">
+				<div class="si-content">
+					<h3>Hleb</h3>
+					<p class="price">75 din</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Ubaci</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/mleko.png">
+				<div class="si-content">
+					<h3>Mleko</h3>
+					<p class="price">115 din</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Ubaci</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/sir.png">
+				<div class="si-content">
+					<h3>Sir</h3>
+					<p class="price">600 din</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Ubaci</button>
+				</div>
+			</div>
+
+            <div class="single-item">
+				<img src="img/meso.png">
+				<div class="si-content">
+					<h3>Meso</h3>
+					<p class="price">670 din</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Ubaci</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
