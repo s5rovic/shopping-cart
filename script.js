@@ -53,7 +53,6 @@ function removeFromCart(element) {
 
         }
 
-        // console.log(nam);
     })
 
 }
